@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 5px 20px;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#body {
+    display: flex;
+    flex-direction: column;
+}
+#leftBar{
+    border: black 2px solid;
+    width: 130px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+#icon {
+    height: 55px;
+    border: black 3px solid;
+    border-radius: 50%;
+}
+.userContainer{
+    height: 100px;
+    width: 350px;
+    border: black 2px solid;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+}
+.userName {
+    display: flex;
+    align-items: center;
+}
+#likeButtonNeil {
+    background-color: goldenrod;
+    box-shadow: black 4px 4px;
+    height: 25px;
+    width: 50px;
+    border: black 3px solid;
+}
+#likeButtonNichole {
+    background-color: goldenrod;
+    box-shadow: black 4px 4px;
+    height: 25px;
+    width: 50px;
+    border: black 3px solid;
+}
+#likeButtonJim {
+    background-color: goldenrod;
+    box-shadow: black 4px 4px;
+    height: 25px;
+    width: 50px;
+    border: black 3px solid;
+}
+.likeGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+}
